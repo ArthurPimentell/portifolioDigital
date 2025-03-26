@@ -425,10 +425,121 @@ footer .line-footer-borda p a{
     text-decoration: none;
 }
 
-footer .line-footer{
-    border-bottom: 2px solid #0a99ee;
+footer hr{
+    border-color: #0a99ee;
+    box-shadow: 0 0 4px 1px #0a99ee;
 }
-
 .line-footer-borda{
     border-top: 2px solid #000000;
+}
+
+@media screen and (max-width: 1020px){
+    /* GLOBAL */
+    .flex{
+        flex-direction: column;
+    }
+
+    
+    /* CABEÇALHO */
+
+    .interface .logo img{
+        display: none;
+    }
+
+    .topo-do-site h1{
+        font-size: 39px;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 0 20%;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 233px;
+        height: 307px;
+    }
+
+   .topo-do-site .flex{
+    flex-direction: column-reverse;
+   }
+   /* MEUS PROJETOS */
+
+   .portifolio .interface h2{
+    display: inline-flex;
+    font-size: 43px;
+    gap: 3%;
+    margin: 0 2%;
+}
+
+
+   /* fale comigo */
+   
+   section.formulario .interface h2{
+    display: inline-flex;
+    font-size: 43px;
+    gap: 3%;
+    margin: 0 18%;
+    text-align: center;
+    }  
+
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    /* SOBRE */
+
+    section.sobre{
+        padding: 10px 4%;
+    }
+    
+    section.sobre .interface .flex .img-sobre img{
+        width: 242px;
+        height: 330px;
+    }
+    
+    section.sobre .interface .flex .txt-sobre h1, h2{
+        font-size: 32px;
+        line-height: 44px;
+    }
+    
+    section.sobre .interface .txt-sobre h1, h2 span{
+        font-size: 32px;
+        display: inline;
+    }
+    
+    section.sobre .interface .flex .txt-sobre h1, p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px 5%;
+        text-align: justify;
+    }
+    
+    section.sobre .flex{
+        align-items: center;
+        gap: 60px;   
+    }
+
+    section.portifolio .interface .flex{
+        align-items: center;
+    }
+
+    section.portifolio .interface h2{
+        font-size: 34px;
+        margin-left: 55px;
+    }
+
+    section.formulario .interface h2{
+        font-size: 34px;
+        margin-left: 95px;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    
 }

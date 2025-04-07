@@ -133,7 +133,7 @@ section.topo-do-site .flex{
 main .img-topo-site img{
     position: relative;
     width: 433px;
-    height: 507px;
+    height: 530px;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
@@ -199,9 +199,14 @@ section.sobre{
 
 section.sobre .interface .flex .img-sobre img{
     border-radius: 30px;
-    width: 342px;
-    height: 460px;
+    width: 310px;
+    height: 410px;
     box-shadow: 0 0 10px 10px #0a9aee81;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
 }
 
 section.sobre .interface .flex .txt-sobre h1, h2{
